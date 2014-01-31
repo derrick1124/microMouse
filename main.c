@@ -1,6 +1,7 @@
 ///
 /// @file       main.c
 /// @author     Kyeong Soo (Joseph) Kim <k.s.kim@swansea.ac.uk>
+///             Derrick Chow  <717488@swansea.ac.uk>
 /// @date       2012-02-21
 ///
 /// @brief      Main part of the micro mouse program
@@ -207,10 +208,10 @@ void main(void)
     PTAPE = 0xFF;   // enable port A pullups for touchbar switches and infrared sensors
     PTADD = 0x00;   // set port A as input
 
-/*
+
     tbfl = touchBarFrontLeft;
     tbfr = touchBarFrontRight;
-    */
+    
     tbfl = 0;
     tbfr = 0;
     if ((tbfl == 0) && (tbfr == 0)) {
