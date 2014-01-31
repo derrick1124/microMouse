@@ -75,7 +75,7 @@ void AvoidObstacle()
 
 void LineFollowing ()
 {
-    mouseMode = MOUSE_MODE_OBSTACLE_AVOIDING;
+    mouseMode = MOUSE_MODE_LINE_FOLLOWING;
 
     for (;;) {
         // first move forward
