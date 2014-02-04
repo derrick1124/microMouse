@@ -178,7 +178,7 @@ void main(void)
     pwLeft = defaultSpeed;  // PWM duty cycle for left motor
     pwRight = defaultSpeed; // PWM duty cycle for right motor
     pwMax = 90;             // maximum for PWM duty cycle
-    pwMin = 10;             // minimum for PWM duty cycle
+    pwMin = 40;             // minimum for PWM duty cycle
 
     // for ADC
     ADC1CFG = 0b00000000;   // on bus clock, 8-bit conversion
