@@ -93,10 +93,11 @@ typedef enum {
 //@}
 
 /// @name IR sensors
-/// We assume that PTAD6-7 are connected to infrared sensors.
+/// We assume that PTAD5-7 are connected to infrared sensors.
 //@{
 #define infraredFrontLeft   PTAD_PTAD7
 #define infraredFrontRight  PTAD_PTAD6
+#define infraredRear        PTAD_PTAD5
 //@}
 
 /// @name Line Following sensors
